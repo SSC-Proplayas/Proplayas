@@ -1,4 +1,4 @@
-
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
@@ -45,7 +45,7 @@ const Navbar = () => {
                             height='10'
                             className='cursor-pointer'
                         />
-                        <h1 class="text-xl text-neutral-200 dark:text-neutral-200 font-bold ml-5" href="#">
+                        <h1 className="text-xl text-neutral-200 dark:text-neutral-200 font-bold ml-5" href="#">
                             PROPLAYAS
                         </h1>
                     </div>

@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import Carousel from "@/components/Carousel";
-import CardsHome from "@/components/CardsHome";
+import Navbar from "../components/Navbar";
+import Carousel from "../components/Carousel";
+import CardsHome from "../components/CardsHome";
 import Link from "next/link";
-import Footer from "@/components/Footer";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (

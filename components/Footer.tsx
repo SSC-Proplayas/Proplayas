@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import { AiFillInstagram } from "react-icons/ai";
@@ -27,7 +28,7 @@ const Footer = () => {
         </div>
         
         <div className="flex flex-col mt-10 gap-2">
-          <Link href="#" className="text-white ">Registrarse</Link>
+          <Link href="/admin/login/" className="text-white ">Inicio de Sesion</Link>
           <Link  href="#" className="text-white">Aviso de Privacidad y seguridad</Link>
           <Link  href="#" className="text-white">Terminos de Uso</Link>
         </div>
