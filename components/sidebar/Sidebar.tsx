@@ -15,6 +15,7 @@ import { CgProfile } from "react-icons/cg";
 import { FaRegComments, FaRegNewspaper} from "react-icons/fa";
 import { BiMessageSquareDots } from "react-icons/bi";
 import { TbBook } from "react-icons/tb";
+import Link from "next/link";
 
 function Sidebar() {
     
@@ -33,36 +34,36 @@ function Sidebar() {
               PROPLAYAS
             </h1>
             <div className=" my-4 border-b border-gray-100 pb-4">
-              <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+            <Link href='/admin/Home' ><div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <MdOutlineSpaceDashboard className="text-2xl text-gray-600 group-hover:text-white " />
                 <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
                   Dashboard
                 </h3>
-              </div>
-              <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+              </div></Link>
+              <Link href='/admin/Libros' ><div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <TbBook className="text-2xl text-gray-600 group-hover:text-white " />
                 <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
                   Libros
                 </h3>
-              </div>
-              <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+              </div></Link>
+              <Link href='/admin/Publicaciones' ><div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <FaRegNewspaper className="text-2xl text-gray-600 group-hover:text-white " />
                 <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
                   Publicaciones
                 </h3>
-              </div>
-              <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+              </div></Link>
+              <Link href='/admin/Nodos' ><div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <MdPeopleOutline className="text-2xl text-gray-600 group-hover:text-white " />
                 <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
                   Nodos
                 </h3>
-              </div>
-              <div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
+              </div></Link>
+              <Link href='/admin/Webinars' ><div className="flex  mb-2 justify-start items-center gap-4 pl-5 hover:bg-[#00A1FF] p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                 <BiMessageSquareDots className="text-2xl text-gray-600 group-hover:text-white " />
                 <h3 className="text-base text-gray-800 group-hover:text-white font-semibold ">
                   Webinars
                 </h3>
-              </div>
+              </div></Link>
               
             </div>
             {/* setting  */}
